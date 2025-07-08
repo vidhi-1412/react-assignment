@@ -15,7 +15,7 @@ import breifcase from './assets/Briefcase.png';
 import CalendarDays from './assets/calendar.png';
 import Status from './assets/Status.png';
 import user from './assets/user.png';
-import globe from './assets/globe.png';
+import globe from './assets/Globe.png';
 import assigned from './assets/assigned.png';
 import './index.css';
 type RowData = {
