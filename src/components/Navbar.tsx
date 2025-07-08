@@ -33,7 +33,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Workspace</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[80px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
+<p className='mt-[0.6rem] w-[150px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -42,7 +42,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Folder 2</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[150px] h-[20px] gap-[8px] text-[14px] '
+<p className='mt-[0.6rem] w-[200px] h-[20px] gap-[8px] text-[14px] '
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -50,7 +50,7 @@ const Navbar = () => {
     lineHeight: '20px',
     letterSpacing: '0px',
   }}> Spreadsheet 3</p>
- <p className='text-[#AFAFAF] mt-[0.7rem]'><Ellipsis size={20}/></p>
+<p className='text-[#AFAFAF] mt-[0.7rem]'><Ellipsis size={20}/></p>
           </div>
         </div>
         <div className='w-[325px] h-[40px] flex'>
