@@ -108,7 +108,7 @@ const App = () => {
                     style={{
                       fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
                       fontWeight: 400,
-                      fontSize: '12px',
+                      fontSize: '10px',
                       lineHeight: '16px',
                       letterSpacing: '0px',
                     }}

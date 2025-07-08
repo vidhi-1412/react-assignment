@@ -33,7 +33,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Workspace</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[56px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
+<p className='mt-[0.6rem] w-[62px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -66,7 +66,7 @@ const Navbar = () => {
         </button>
         <div className='w-[40px] h-[40px] rounded-[8px] p-[8px] gap-[12px]'>
         <img src={Alert} className='w-[24px] h-[24px]' alt="" />
-        <div className="absolute top-2 right-59 bg-green-700 text-white text-[10px] w-[16px] h-[16px] border-[2px] border-[#FFFFFF] flex items-center justify-center rounded-full">
+        <div className="absolute top-2 right-20 bg-green-700 text-white text-[10px] w-[16px] h-[16px] border-[2px] border-[#FFFFFF] flex items-center justify-center rounded-full">
         2
       </div></div>
       <div className='w-[112px] h-[40px] rounded-[8px] py-[4px] pl-[8px] pr-[12px] gap-[8px] flex'>
@@ -194,7 +194,7 @@ style={{
     lineHeight: '20px',
     letterSpacing: '0px',
   }}><img src={ArrowSplit}/>
-    <p className='ml-[0.2rem]'>New Action</p></button>
+    <p className='ml-[0.2rem] '>New Action</p></button>
          
 
         </div>
