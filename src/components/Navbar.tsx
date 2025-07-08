@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="w-[1440px] h-[56px] border-b-[1px] border-[#AFAFAF] px-[16px] py-[8px] bg-[#FFFFFF] flex justify-between ">
         <div className="w-[343px] h-[24px] gap-[16px] flex">
           <img src={shape} className='h-[1rem] w-[1rem] mt-[0.8rem] ml-[0.5rem]'></img>
-          <div className='w-[503px] h-[24px] gap-[4px] flex'>
+          <div className='w-[363px] h-[24px] gap-[4px] flex'>
 <p className='mt-[0.6rem] ml-[0.5rem] w-[70px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
@@ -33,7 +33,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Workspace</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[150px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
+<p className='mt-[0.6rem] w-[130px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -42,7 +42,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Folder 2</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[200px] h-[20px] gap-[8px] text-[14px] '
+<p className='mt-[0.6rem] w-[150px] h-[20px] gap-[8px] text-[14px] '
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
