@@ -33,7 +33,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Workspace</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[62px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
+<p className='mt-[0.6rem] w-[70px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -42,7 +42,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Folder 2</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[110px] h-[20px] gap-[8px] text-[14px] '
+<p className='mt-[0.6rem] w-[150px] h-[20px] gap-[8px] text-[14px] '
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -109,7 +109,7 @@ style={{
         <div className='w-[871px] h-[36px] gap-[4px] flex'>
         <div className='w-[118px] h-[36px] rounded-[6px] py-[8px] pl-[8px] pr-[12px] gap-[4px] flex'>
           <img src={eye} alt="" className='w-[20px] h-[20px]'/>
-          <p className='h-[20px] w-[90px] ml-[0.2rem] '
+          <p className='h-[20px] w-[110px] ml-[0.2rem] '
           style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -142,7 +142,7 @@ style={{
         </div>
         <div className='w-[105px] h-[36px] rounded-[6px] py-[8px] pl-[8px] pr-[12px] gap-[4px] flex'>
           <img src={Arrow} alt="" className='w-[20px] h-[20px]'/>
-          <p className='h-[20px] w-[90px] ml-[0.2rem] '
+          <p className='h-[20px] w-[110px] ml-[0.2rem] '
           style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
