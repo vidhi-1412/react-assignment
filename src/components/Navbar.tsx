@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="w-[1440px] h-[56px] border-b-[1px] border-[#AFAFAF] px-[16px] py-[8px] bg-[#FFFFFF] flex justify-between ">
         <div className="w-[343px] h-[24px] gap-[16px] flex">
           <img src={shape} className='h-[1rem] w-[1rem] mt-[0.8rem] ml-[0.5rem]'></img>
-          <div className='w-[303px] h-[24px] gap-[4px] flex'>
+          <div className='w-[503px] h-[24px] gap-[4px] flex'>
 <p className='mt-[0.6rem] ml-[0.5rem] w-[70px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
@@ -66,7 +66,7 @@ const Navbar = () => {
         </button>
         <div className='w-[40px] h-[40px] rounded-[8px] p-[8px] gap-[12px]'>
         <img src={Alert} className='w-[24px] h-[24px]' alt="" />
-        <div className="absolute top-2 right-0 bg-green-700 text-white text-[10px] w-[16px] h-[16px] border-[2px] border-[#FFFFFF] flex items-center justify-center rounded-full">
+        <div className="absolute top-2 -right-10 bg-green-700 text-white text-[10px] w-[16px] h-[16px] border-[2px] border-[#FFFFFF] flex items-center justify-center rounded-full">
         2
       </div></div>
       <div className='w-[112px] h-[40px] rounded-[8px] py-[4px] pl-[8px] pr-[12px] gap-[8px] flex'>
