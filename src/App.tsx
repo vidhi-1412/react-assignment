@@ -1,5 +1,5 @@
 // src/App.jsx
-import React from 'react';
+// import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 // import AppRoutes from './routes/AppRoutes';
 import { ChevronDown } from 'lucide-react';
@@ -13,7 +13,7 @@ import { Link2 } from 'lucide-react';
 import { RefreshCw } from 'lucide-react';
 import breifcase from './assets/Briefcase.png';
 import CalendarDays from './assets/calendar.png';
-import Status from './assets/status.png';
+import Status from './assets/Status.png';
 import user from './assets/user.png';
 import globe from './assets/globe.png';
 import assigned from './assets/assigned.png';
