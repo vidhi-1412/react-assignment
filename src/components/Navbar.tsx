@@ -46,7 +46,7 @@ const Navbar = () => {
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
-    fontSize: '14px',
+    fontSize: '13px',
     lineHeight: '20px',
     letterSpacing: '0px',
   }}> Spreadsheet 3</p>
