@@ -33,7 +33,7 @@ const Navbar = () => {
     letterSpacing: '0px',
   }}> Workspace</p>
 <p className='text-[#AFAFAF] mt-[0.6rem] stroke-[1px]'><ChevronRight size={20}/></p>
-<p className='mt-[0.6rem] w-[70px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
+<p className='mt-[0.6rem] w-[80px] h-[20px] gap-[8px] text-[14px] text-[#AFAFAF]'
  style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
@@ -66,7 +66,7 @@ const Navbar = () => {
         </button>
         <div className='w-[40px] h-[40px] rounded-[8px] p-[8px] gap-[12px]'>
         <img src={Alert} className='w-[24px] h-[24px]' alt="" />
-        <div className="absolute top-2 right-10 bg-green-700 text-white text-[10px] w-[16px] h-[16px] border-[2px] border-[#FFFFFF] flex items-center justify-center rounded-full">
+        <div className="absolute top-2 right-0 bg-green-700 text-white text-[10px] w-[16px] h-[16px] border-[2px] border-[#FFFFFF] flex items-center justify-center rounded-full">
         2
       </div></div>
       <div className='w-[112px] h-[40px] rounded-[8px] py-[4px] pl-[8px] pr-[12px] gap-[8px] flex'>
@@ -109,11 +109,11 @@ style={{
         <div className='w-[871px] h-[36px] gap-[4px] flex'>
         <div className='w-[118px] h-[36px] rounded-[6px] py-[8px] pl-[8px] pr-[12px] gap-[4px] flex'>
           <img src={eye} alt="" className='w-[20px] h-[20px]'/>
-          <p className='h-[20px] w-[110px] ml-[0.2rem] '
+          <p className='h-[20px] w-[150px] ml-[0.2rem] '
           style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
-    fontSize: '14px',
+    fontSize: '13px',
     lineHeight: '20px',
     letterSpacing: '0px',
   }}>Hide fields</p>
@@ -142,11 +142,11 @@ style={{
         </div>
         <div className='w-[105px] h-[36px] rounded-[6px] py-[8px] pl-[8px] pr-[12px] gap-[4px] flex'>
           <img src={Arrow} alt="" className='w-[20px] h-[20px]'/>
-          <p className='h-[20px] w-[110px] ml-[0.2rem] '
+          <p className='h-[20px] w-[150px] ml-[0.2rem] '
           style={{
     fontFamily: `'Inter', 'system-ui', 'sans-serif'`,
     fontWeight: 500,
-    fontSize: '14px',
+    fontSize: '13px',
     lineHeight: '20px',
     letterSpacing: '0px',
   }}>Cell view</p>
